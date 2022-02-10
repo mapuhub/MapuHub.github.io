@@ -1,4 +1,4 @@
-### Hi there 👋
+### MapuHub is a news website which its contents primarily consists of news that pertains to MAPUA, may they be in a positive or negative light. Acting as both an archive of said news and a platform that the community can use to give their feedback to the university in a general sense. MapuHub is a project made by freshmen college students as a requirement for their subject IT130L. The front end languages that was used to make said project is HTML,CSS and JS. Big thanks to startbootsrtap.com for giving us free templates that us developers can work on and made this project what it is. - King, Lex, Kyle L., Kyle R., David
 
 <!--
 **mapuhub/MapuHub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
