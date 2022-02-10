@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Opinion Page of MapuHub" />
+  <meta name="author" content="King Ralph Daeniel E. Pasaron" />
+  <title>Acad Break: did it make or break the semester?</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
+
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="Opinion/css/opinion.css" rel="stylesheet" />
+</head>
+    <body onload="showNotification('black')">
+	<div id="notification" class="notification">
+		<div class="notif-body py-5">
+			<div class="row gx-5 text-center">
+				<h3>Are you an outsider or an insider?</h3>
+			<div class="col text-end">
+				<button id="insider" class="notif-button1" onclick="change1('choice')">Insider</button>
+				<p class="hide">An insider is one who currently is part of MAPUA's community</p></div>
+			<div class="col text-start">
+				<button id="outsider" class="notif-button2" onclick="change2('choice')">outsider</button>
+				<p class="hide">An outsider is one who used to be, or is planning to become part of the community, or perhaps is just here to read</p></div>
+			</div>
+		</div>
+	</div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+              <a class="navbar-brand" href="#!">MapuHub</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item fw-bolder navbar-bolder"><a class="nav-link" href="homepage1.html">Front News</a></li>
+                        <li class="nav-item fw-bolder navbar-bolder"><a class="nav-link" href="announcements.html">Announcements</a></li>
+                        <li class="nav-item fw-bolder navbar-bolder"><a class="nav-link" href="sportspg.html">Sports</a></li>
+                        <li class="nav-item fw-bolder navbar-bolder"><a class="nav-link" href="opinionpg1.html">Opinion</a></li>
+                        <li class="nav-item fw-bolder navbar-bolder"><a class="nav-link" href="about.html">About</a></li>
+                  </ul>
+              </div>
+          </div>
+        </nav>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <article>
+                        <header class="mb-4">
+                            <h1 class="fw-bolder mb-1">Acad Break: did it make or break the semester?</h1>
+                            <div class="text-muted fst-italic mb-2">Posted on February 9, 2022 by King Pasaron</div>
+                            <a class="badge bg-mapua text-decoration-none link-light">COVID-19</a>
+                            <a class="badge bg-mapua text-decoration-none link-light">Health Break</a>
+                        </header>
+                        <figure class="mb-4"><img class="img-fluid rounded" src="https://i0.wp.com/cardinalpointsonline.com/wp-content/uploads/2021/05/Mental-Health-Elara.png?fit=2100%2C1500" alt="..." /></figure>
+                        <section class="mb-5">
+                          <p class="fs-5 mb-4 fw-lighter">Due to the rising cases of Omicron which is a new variant of the COVID-19, Mapua University decided to take a health break both for students and the faculties. According to the transparency report made by the student council, an estimated total of 750 students are positive with COVID-19 which is pretty high as this new variant just spreaded around the corner. However, Mapuans are somehow not satisfied with this move made by the university.</p>
+
+                          <p class="fs-5 mb-4 fw-lighter">On the memo Mapua University posted last January 13, all classes will be delivered in asynchronous mode until the end of the term in which students will be facing their modules on the second half of this term. Moreover, all deadlines from each subject are to be submitted from 10th week for students with no issues and 11th week for students diagnosed with the virus. On contrary, as these protocols are being implemented, students are not satisified with this decision. </p>
+
+                          <p class="fs-5 mb-4 fw-lighter">Because of a two week health break the university gave, students are having a hard time learning the topics from the subjects they took, as watching video lectures are not enough for them to learn. With this case, students marked this decision as a 'wrong move' from the university as it decreased their willingness to learn.</p>
+
+                          <p class="fs-5 mb-4 fw-lighter">Though it has been roughly 2 years of pure online classes, seeing that be altered in such a way that removes more interaction from not only the teachers but to other students as well which is likely the only social interaction some students even have for the remaining duration of the semester could pose more problems than solve it, which it was its main purpose to begin with, and it could affect their performance in doing their school works negatively.</p>
+
+                          <p class="fs-5 mb-4 fw-lighter">Write your thoughts below, fellow Mapuans! We'd love to hear more from your side!</p>
+                        </section>
+                    </article>
+                    <section class="mb-5">
+                        <div class="card bg-light">
+                            <div class="card-body">
+	                 <form id="commentarea" name="commentform" class="mb-4"><textarea id="choice" name="comment" class="form-control" rows="3" placeholder="Your feedback would be greatly appreciated!"></textarea>
+								<button type="submit" class="button-submit">Post</button>
+								</form>
+									<div class="card-body" id="entries">
+									<div class="d-flex mb-4">
+										<div class="flex-shrink-0"></div>
+										<div class="ms-3">
+                                        <div class="fw-bold">Commenter Name</div>
+                                        If you're going to lead a space frontier, it has to be government; it'll never be private enterprise. Because the space frontier is dangerous, and it's expensive, and it has unquantified risks.
+                                        <div class="d-flex mt-4">
+                                            <div class="flex-shrink-0"></div>
+                                            <div class="ms-3">
+                                                <div class="fw-bold">Commenter Name</div>
+                                                And under those conditions, you cannot establish a capital-market evaluation of that enterprise. You can't get investors.
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <div class="flex-shrink-0"></div>
+                                            <div class="ms-3">
+                                                <div class="fw-bold">Commenter Name</div>
+                                                When you put money directly to a problem, it makes a good headline.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="ms-3">
+										<div class="flex-shrink-0"></div>
+                                        <div class="fw-bold">Commenter Name</div>
+                                        When I look at the universe and all the ways the universe wants to kill us, I find it hard to reconcile that with statements of beneficence.
+                                    </div>
+                                </div>
+								                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Side widgets-->
+                    <div class="col-lg-4">
+
+                        <!-- Categories widget-->
+                        <div class="card mb-4">
+                            <div class="card-header bg-mapua">Opinion</div>
+                            <div class="mb-4 kcard">
+                              <a href="#!"><img class="card-img-top" src="https://newsinfo.inquirer.net/files/2021/12/212479.jpeg" alt="..." /></a>
+                              <div class="card-body">
+                                  <div class="small text-muted">February 2, 2022</div>
+                                  <h2 class="card-title h4 fw-bold">Face-to-face Classes: 'When kaya?'</h2>
+                                  <p class="card-text fw-lighter">It's been a while since the COVID-19 outbreak where two week suspension of classes turned out to be two years of our life.</p>
+                                  <a class="btn btn-warning fw-light" href="opinionpg2.html">Read more →</a>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- Side widget-->
+                        <div class="card mb-4">
+                            <div class="card-header bg-mapua">Explore</div>
+                            <!--<div class="card-body">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div> -->
+                            <div class="card-body">
+                              <h5 class="<card-title></card-title>">Lyceum defeats Mapua to rule MLBB Varsity Cup</h5>
+                              <p class="card-text">The Lyceum of the Philippines University (LPU) reigned supreme in the first-ever Collegiate Center for Esports (CCE) Mobile Legends: Bang Bang Varsity Cup after overthrowing Mapua University, 4-2, in their best-of-seven grand finals on Saturday.</p>
+                              <a href="sports1.html" class="btn btn-warning fw-light">Read more →</a>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Letran goes 2-0; Mapua, San Sebastian bounce back in MLBB Varsity Cup</h5>
+                              <p class="card-text">The Colegio de San Juan de Letran remained undefeated in Day 2 of the Mobile Legends: Bang Bang Varsity Cup on Thursday after outlasting the debuting Jose Rizal University.</p>
+                              <a href="sports2.html" class="btn btn-warning fw-light">Read more →</a>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">From no pictures to playing Drake songs: Mapua University student-athletes share their game superstitions</h5>
+                              <p class="card-text">Will these superstitions help catapult Mapua to great success in Season 96 of the NCAA?</p>
+                              <a href="sports4.html" class="btn btn-warning fw-light">Read more →</a>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Campus-based esports league emerges in NCAA</h5>
+                              <p class="card-text">A NEW avenue in the campus sports scene has emerged with the birth of the Collegiate Center for Esports (CCE) aiming to cater scholarship opportunities and career paths for aspiring students through the booming online gaming sport.</p>
+                              <a href="sports3.html" class="btn btn-warning fw-light">Read more →</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer-->
+              <footer class="py-5 bg-dark">
+                <div class="container"><p class="m-0 text-center text-white">Get in touch with us at hubmapua@gmail.com</p></div>
+            </footer>
+    </body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="Opinion/js/scripts.js"></script>
+</html>
